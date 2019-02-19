@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412E44C8E95AE374B61651B4 /* Pods_FrancisAdelante_TOWA_iOS_Exam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AF6B37BFF00D0461AA5184 /* Pods_FrancisAdelante_TOWA_iOS_Exam.framework */; };
+		4D3848632216FEA0008EBD66 /* AssetsApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3848622216FEA0008EBD66 /* AssetsApiObject.swift */; };
+		4D38486C221702CB008EBD66 /* Asset+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D38486922170136008EBD66 /* Asset+CoreDataClass.swift */; };
+		4D38486D221702CB008EBD66 /* Asset+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D38486822170136008EBD66 /* Asset+CoreDataProperties.swift */; };
+		4D8CED8022145996004F8959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CED7F22145996004F8959 /* AppDelegate.swift */; };
+		4D8CED8522145996004F8959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CED8322145996004F8959 /* Main.storyboard */; };
+		4D8CED8822145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CED8622145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodeld */; };
+		4D8CED8A22145998004F8959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CED8922145998004F8959 /* Assets.xcassets */; };
+		4D8CED8D22145998004F8959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CED8B22145998004F8959 /* LaunchScreen.storyboard */; };
+		4D8CED9A22145A08004F8959 /* BaseApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CED9922145A08004F8959 /* BaseApiObject.swift */; };
+		4D8CED9C22145A55004F8959 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CED9B22145A55004F8959 /* Extensions.swift */; };
+		4D8CED9E22145AD4004F8959 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CED9D22145AD4004F8959 /* ApiManager.swift */; };
+		4D8CEDA022145AEF004F8959 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CED9F22145AEF004F8959 /* DataManager.swift */; };
+		4D8CEDA5221460D1004F8959 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CEDA4221460D1004F8959 /* HomeViewController.swift */; };
+		4D8CEDA7221460DA004F8959 /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CEDA6221460DA004F8959 /* AssetsViewController.swift */; };
+		4D8CEDA9221466D6004F8959 /* AssetsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CEDA8221466D6004F8959 /* AssetsView.xib */; };
+		4D8CEDAB221466DF004F8959 /* SpacesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CEDAA221466DF004F8959 /* SpacesView.xib */; };
+		4D8CEDAD221466FB004F8959 /* SuppliersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CEDAC221466FB004F8959 /* SuppliersView.xib */; };
+		4D8CEDAF22146822004F8959 /* SuppliersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CEDAE22146822004F8959 /* SuppliersView.swift */; };
+		4D8CEDB122146831004F8959 /* SpacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CEDB022146831004F8959 /* SpacesView.swift */; };
+		4D8CEDB32214683A004F8959 /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CEDB22214683A004F8959 /* AssetsView.swift */; };
+		4D8CEDB62216F997004F8959 /* AssetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CEDB42216F997004F8959 /* AssetsTableViewCell.swift */; };
+		4D8CEDB72216F997004F8959 /* AssetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CEDB52216F997004F8959 /* AssetsTableViewCell.xib */; };
+		4DBEA594221AB34D00DA2FD5 /* AssetsDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEA593221AB34D00DA2FD5 /* AssetsDataAdapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36D84FEFF15D274A0056C779 /* Pods-FrancisAdelante_TOWA_iOS_Exam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrancisAdelante_TOWA_iOS_Exam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrancisAdelante_TOWA_iOS_Exam/Pods-FrancisAdelante_TOWA_iOS_Exam.debug.xcconfig"; sourceTree = "<group>"; };
+		4D3848622216FEA0008EBD66 /* AssetsApiObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsApiObject.swift; sourceTree = "<group>"; };
+		4D38486822170136008EBD66 /* Asset+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Asset+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D38486922170136008EBD66 /* Asset+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Asset+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D8CED7C22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrancisAdelante_TOWA_iOS_Exam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8CED7F22145996004F8959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D8CED8422145996004F8959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D8CED8722145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FrancisAdelante_TOWA_iOS_Exam.xcdatamodel; sourceTree = "<group>"; };
+		4D8CED8922145998004F8959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D8CED8C22145998004F8959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D8CED8E22145998004F8959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8CED9922145A08004F8959 /* BaseApiObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiObject.swift; sourceTree = "<group>"; };
+		4D8CED9B22145A55004F8959 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4D8CED9D22145AD4004F8959 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		4D8CED9F22145AEF004F8959 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4D8CEDA4221460D1004F8959 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4D8CEDA6221460DA004F8959 /* AssetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsViewController.swift; sourceTree = "<group>"; };
+		4D8CEDA8221466D6004F8959 /* AssetsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetsView.xib; sourceTree = "<group>"; };
+		4D8CEDAA221466DF004F8959 /* SpacesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpacesView.xib; sourceTree = "<group>"; };
+		4D8CEDAC221466FB004F8959 /* SuppliersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuppliersView.xib; sourceTree = "<group>"; };
+		4D8CEDAE22146822004F8959 /* SuppliersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuppliersView.swift; sourceTree = "<group>"; };
+		4D8CEDB022146831004F8959 /* SpacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacesView.swift; sourceTree = "<group>"; };
+		4D8CEDB22214683A004F8959 /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+		4D8CEDB42216F997004F8959 /* AssetsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsTableViewCell.swift; sourceTree = "<group>"; };
+		4D8CEDB52216F997004F8959 /* AssetsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetsTableViewCell.xib; sourceTree = "<group>"; };
+		4DBEA593221AB34D00DA2FD5 /* AssetsDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsDataAdapter.swift; sourceTree = "<group>"; };
+		8DB194EDD2689BAA22ACC888 /* Pods-FrancisAdelante_TOWA_iOS_Exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrancisAdelante_TOWA_iOS_Exam.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrancisAdelante_TOWA_iOS_Exam/Pods-FrancisAdelante_TOWA_iOS_Exam.release.xcconfig"; sourceTree = "<group>"; };
+		F8AF6B37BFF00D0461AA5184 /* Pods_FrancisAdelante_TOWA_iOS_Exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrancisAdelante_TOWA_iOS_Exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D8CED7922145996004F8959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412E44C8E95AE374B61651B4 /* Pods_FrancisAdelante_TOWA_iOS_Exam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D8CED7322145996004F8959 = {
+			isa = PBXGroup;
+			children = (
+				4D8CED7E22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam */,
+				4D8CED7D22145996004F8959 /* Products */,
+				CBF8B08A1547ECF0FFEF725C /* Pods */,
+				D7423FA3F2A727E111FB0F5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8CED7D22145996004F8959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CED7C22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8CED7E22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CEDA3221460A5004F8959 /* controllers */,
+				4D8CEDA122145DE0004F8959 /* model */,
+				4D8CED98221459D5004F8959 /* views */,
+				4D8CED97221459CC004F8959 /* apiObjects */,
+				4D8CED96221459B8004F8959 /* dataAdapters */,
+				4D8CED95221459A8004F8959 /* managers */,
+				4D8CED94221459A0004F8959 /* extension */,
+				4D8CED7F22145996004F8959 /* AppDelegate.swift */,
+				4D8CED8322145996004F8959 /* Main.storyboard */,
+				4D8CED8922145998004F8959 /* Assets.xcassets */,
+				4D8CED8B22145998004F8959 /* LaunchScreen.storyboard */,
+				4D8CED8E22145998004F8959 /* Info.plist */,
+				4D8CED8622145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodeld */,
+			);
+			path = FrancisAdelante_TOWA_iOS_Exam;
+			sourceTree = "<group>";
+		};
+		4D8CED94221459A0004F8959 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CED9B22145A55004F8959 /* Extensions.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		4D8CED95221459A8004F8959 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CED9D22145AD4004F8959 /* ApiManager.swift */,
+				4D8CED9F22145AEF004F8959 /* DataManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		4D8CED96221459B8004F8959 /* dataAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				4DBEA593221AB34D00DA2FD5 /* AssetsDataAdapter.swift */,
+			);
+			path = dataAdapters;
+			sourceTree = "<group>";
+		};
+		4D8CED97221459CC004F8959 /* apiObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CED9922145A08004F8959 /* BaseApiObject.swift */,
+				4D3848622216FEA0008EBD66 /* AssetsApiObject.swift */,
+			);
+			path = apiObjects;
+			sourceTree = "<group>";
+		};
+		4D8CED98221459D5004F8959 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CEDA8221466D6004F8959 /* AssetsView.xib */,
+				4D8CEDAA221466DF004F8959 /* SpacesView.xib */,
+				4D8CEDB42216F997004F8959 /* AssetsTableViewCell.swift */,
+				4D8CEDB52216F997004F8959 /* AssetsTableViewCell.xib */,
+				4D8CEDB022146831004F8959 /* SpacesView.swift */,
+				4D8CEDB22214683A004F8959 /* AssetsView.swift */,
+				4D8CEDAC221466FB004F8959 /* SuppliersView.xib */,
+				4D8CEDAE22146822004F8959 /* SuppliersView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4D8CEDA122145DE0004F8959 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4D38486922170136008EBD66 /* Asset+CoreDataClass.swift */,
+				4D38486822170136008EBD66 /* Asset+CoreDataProperties.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4D8CEDA3221460A5004F8959 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CEDA4221460D1004F8959 /* HomeViewController.swift */,
+				4D8CEDA6221460DA004F8959 /* AssetsViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CBF8B08A1547ECF0FFEF725C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36D84FEFF15D274A0056C779 /* Pods-FrancisAdelante_TOWA_iOS_Exam.debug.xcconfig */,
+				8DB194EDD2689BAA22ACC888 /* Pods-FrancisAdelante_TOWA_iOS_Exam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7423FA3F2A727E111FB0F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8AF6B37BFF00D0461AA5184 /* Pods_FrancisAdelante_TOWA_iOS_Exam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8CED7B22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8CED9122145998004F8959 /* Build configuration list for PBXNativeTarget "FrancisAdelante_TOWA_iOS_Exam" */;
+			buildPhases = (
+				7E970F7BE6CA6DDDE9893B9D /* [CP] Check Pods Manifest.lock */,
+				4D8CED7822145996004F8959 /* Sources */,
+				4D8CED7922145996004F8959 /* Frameworks */,
+				4D8CED7A22145996004F8959 /* Resources */,
+				4B0A236F449F110D5C010E2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrancisAdelante_TOWA_iOS_Exam;
+			productName = FrancisAdelante_TOWA_iOS_Exam;
+			productReference = 4D8CED7C22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D8CED7422145996004F8959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					4D8CED7B22145996004F8959 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D8CED7722145996004F8959 /* Build configuration list for PBXProject "FrancisAdelante_TOWA_iOS_Exam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D8CED7322145996004F8959;
+			productRefGroup = 4D8CED7D22145996004F8959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8CED7B22145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8CED7A22145996004F8959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CEDAD221466FB004F8959 /* SuppliersView.xib in Resources */,
+				4D8CED8D22145998004F8959 /* LaunchScreen.storyboard in Resources */,
+				4D8CEDAB221466DF004F8959 /* SpacesView.xib in Resources */,
+				4D8CEDA9221466D6004F8959 /* AssetsView.xib in Resources */,
+				4D8CED8A22145998004F8959 /* Assets.xcassets in Resources */,
+				4D8CED8522145996004F8959 /* Main.storyboard in Resources */,
+				4D8CEDB72216F997004F8959 /* AssetsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B0A236F449F110D5C010E2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FrancisAdelante_TOWA_iOS_Exam/Pods-FrancisAdelante_TOWA_iOS_Exam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrancisAdelante_TOWA_iOS_Exam/Pods-FrancisAdelante_TOWA_iOS_Exam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E970F7BE6CA6DDDE9893B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FrancisAdelante_TOWA_iOS_Exam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8CED7822145996004F8959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBEA594221AB34D00DA2FD5 /* AssetsDataAdapter.swift in Sources */,
+				4D8CED9C22145A55004F8959 /* Extensions.swift in Sources */,
+				4D3848632216FEA0008EBD66 /* AssetsApiObject.swift in Sources */,
+				4D8CEDB32214683A004F8959 /* AssetsView.swift in Sources */,
+				4D8CEDB62216F997004F8959 /* AssetsTableViewCell.swift in Sources */,
+				4D8CED8822145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodeld in Sources */,
+				4D8CEDA022145AEF004F8959 /* DataManager.swift in Sources */,
+				4D8CED9A22145A08004F8959 /* BaseApiObject.swift in Sources */,
+				4D8CEDAF22146822004F8959 /* SuppliersView.swift in Sources */,
+				4D8CEDB122146831004F8959 /* SpacesView.swift in Sources */,
+				4D8CED9E22145AD4004F8959 /* ApiManager.swift in Sources */,
+				4D38486C221702CB008EBD66 /* Asset+CoreDataClass.swift in Sources */,
+				4D8CEDA5221460D1004F8959 /* HomeViewController.swift in Sources */,
+				4D38486D221702CB008EBD66 /* Asset+CoreDataProperties.swift in Sources */,
+				4D8CED8022145996004F8959 /* AppDelegate.swift in Sources */,
+				4D8CEDA7221460DA004F8959 /* AssetsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D8CED8322145996004F8959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8CED8422145996004F8959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D8CED8B22145998004F8959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8CED8C22145998004F8959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D8CED8F22145998004F8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D8CED9022145998004F8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D8CED9222145998004F8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D84FEFF15D274A0056C779 /* Pods-FrancisAdelante_TOWA_iOS_Exam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrancisAdelante_TOWA_iOS_Exam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-towaexam.FrancisAdelante-TOWA-iOS-Exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D8CED9322145998004F8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB194EDD2689BAA22ACC888 /* Pods-FrancisAdelante_TOWA_iOS_Exam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrancisAdelante_TOWA_iOS_Exam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-towaexam.FrancisAdelante-TOWA-iOS-Exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D8CED7722145996004F8959 /* Build configuration list for PBXProject "FrancisAdelante_TOWA_iOS_Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8CED8F22145998004F8959 /* Debug */,
+				4D8CED9022145998004F8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8CED9122145998004F8959 /* Build configuration list for PBXNativeTarget "FrancisAdelante_TOWA_iOS_Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8CED9222145998004F8959 /* Debug */,
+				4D8CED9322145998004F8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D8CED8622145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D8CED8722145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodel */,
+			);
+			currentVersion = 4D8CED8722145996004F8959 /* FrancisAdelante_TOWA_iOS_Exam.xcdatamodel */;
+			path = FrancisAdelante_TOWA_iOS_Exam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D8CED7422145996004F8959 /* Project object */;
+}
